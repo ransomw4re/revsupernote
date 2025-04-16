@@ -1,0 +1,404 @@
+{
+    "TYPE": "note",
+    "SIGNATURE": "SN_FILE_VER_20230015",
+    "HEADER": {
+        "MODULE_LABEL": "none",
+        "FILE_TYPE": "NOTE",
+        "APPLY_EQUIPMENT": "A5X",
+        "FINALOPERATION_PAGE": "1",
+        "FINALOPERATION_LAYER": "1",
+        "DEVICE_DPI": "0",
+        "SOFT_DPI": "0",
+        "FILE_PARSE_TYPE": "0",
+        "RATTA_ETMD": "0",
+        "APP_VERSION": "0",
+        "FILE_ID": "F20250413082638108525dsFUHY8NGLyL",
+        "FILE_RECOGN_TYPE": "0",
+        "FILE_RECOGN_LANGUAGE": "none",
+        "PDFSTYLE": "none",
+        "PDFSTYLEMD5": "0",
+        "STYLEUSAGETYPE": "0",
+        "HIGHLIGHTINFO": "0",
+        "HORIZONTAL_CHECK": "0",
+        "IS_OLD_APPLY_EQUIPMENT": "1",
+        "ANTIALIASING_CONVERT": "2"
+    },
+    "FOOTER": {
+        "PAGE1": "2894340",
+        "PAGE2": "3317434",
+        "PAGE3": "1112319",
+        "KEYWORD_00010000": [
+            "11406",
+            "11618"
+        ],
+        "KEYWORD_00020000": [
+            "1113768",
+            "1114100"
+        ],
+        "LINKO_00020660056700680172": "1907995",
+        "LINKO_00020739055800660465": "1122874",
+        "LINKO_00020841056700680470": "1509526",
+        "LINKO_00020951057000560364": "2902580",
+        "DIRTY": "15",
+        "FILE_FEATURE": "2895932",
+        "STYLE_style_white_a5x": "331",
+        "KEYWORDS": [
+            {
+                "KEYWORDPAGE": "0",
+                "KEYWORDSEQNO": "0",
+                "KEYWORDRECT": "0,0,0,0",
+                "KEYWORDRECTORI": "0,0,0,0",
+                "KEYWORDSITE": "11398"
+            },
+            {
+                "KEYWORDPAGE": "0",
+                "KEYWORDSEQNO": "0",
+                "KEYWORDRECT": "0,0,0,0",
+                "KEYWORDRECTORI": "0,0,0,0",
+                "KEYWORDSITE": "11607"
+            },
+            {
+                "KEYWORDPAGE": "0",
+                "KEYWORDSEQNO": "0",
+                "KEYWORDRECT": "0,0,0,0",
+                "KEYWORDRECTORI": "0,0,0,0",
+                "KEYWORDSITE": "1113757"
+            },
+            {
+                "KEYWORDPAGE": "0",
+                "KEYWORDSEQNO": "0",
+                "KEYWORDRECT": "0,0,0,0",
+                "KEYWORDRECTORI": "0,0,0,0",
+                "KEYWORDSITE": "1114092"
+            }
+        ],
+        "LINKS": [
+            {
+                "LINKTYPE": "4",
+                "LINKINOUT": "0",
+                "LINKBITMAP": "1905333",
+                "LINKSTYLE": "25000000",
+                "LINKTIMESTAMP": "20250413092906318985",
+                "LINKRECT": "567,660,172,68",
+                "LINKRECTORI": "567,660,172,68",
+                "LINKPROTOCAL": "RATTA_RLE",
+                "LINKFILE": "aHR0cHM6Ly9nb29nbGUuY29t",
+                "LINKFILEID": "none",
+                "PAGEID": "none",
+                "OBJPAGE": "0",
+                "FONTSIZE": "36.000000",
+                "FONTPATH": "L3N5c3RlbS9mb250cy9Ecm9pZFNhbnNGYWxsYmFja0Z1bGwudHRm",
+                "FULLTEXT": "Z29vZ2xl",
+                "SHOWTEXT": "Z29vZ2xl"
+            },
+            {
+                "LINKTYPE": "0",
+                "LINKINOUT": "0",
+                "LINKBITMAP": "1115954",
+                "LINKSTYLE": "25000000",
+                "LINKTIMESTAMP": "20250413090559423033",
+                "LINKRECT": "558,739,465,66",
+                "LINKRECTORI": "558,739,465,66",
+                "LINKPROTOCAL": "RATTA_RLE",
+                "LINKFILE": "L3N0b3JhZ2UvZW11bGF0ZWQvMC9Ob3RlL3JldmVyc2VfZW5nLm5vdGU=",
+                "LINKFILEID": "F20250413082638108525dsFUHY8NGLyL",
+                "PAGEID": "P20250413082638117448JD0ITPKR3hGp",
+                "OBJPAGE": "1",
+                "FONTSIZE": "36.000000",
+                "FONTPATH": "L3N5c3RlbS9mb250cy9Ecm9pZFNhbnNGYWxsYmFja0Z1bGwudHRm",
+                "FULLTEXT": "cmV2ZXJzZV9lbmcubm90ZSAtIHBhZ2UgMQ==",
+                "SHOWTEXT": "cmV2ZXJzZV9lbmcubm90ZSAtIHBhZ2UgMQ=="
+            },
+            {
+                "LINKTYPE": "0",
+                "LINKINOUT": "0",
+                "LINKBITMAP": "1502444",
+                "LINKSTYLE": "25000000",
+                "LINKTIMESTAMP": "20250413090614307043",
+                "LINKRECT": "567,841,470,68",
+                "LINKRECTORI": "567,841,470,68",
+                "LINKPROTOCAL": "RATTA_RLE",
+                "LINKFILE": "L3N0b3JhZ2UvZW11bGF0ZWQvMC9Ob3RlL3JldmVyc2VfZW5nLm5vdGU=",
+                "LINKFILEID": "F20250413082638108525dsFUHY8NGLyL",
+                "PAGEID": "P20250413084737565273NCCnfAp2fCuL",
+                "OBJPAGE": "3",
+                "FONTSIZE": "36.000000",
+                "FONTPATH": "L3N5c3RlbS9mb250cy9Ecm9pZFNhbnNGYWxsYmFja0Z1bGwudHRm",
+                "FULLTEXT": "cmV2ZXJzZV9lbmcubm90ZSAtIHBhZ2UgMw==",
+                "SHOWTEXT": "cmV2ZXJzZV9lbmcubm90ZSAtIHBhZ2UgMw=="
+            },
+            {
+                "LINKTYPE": "1",
+                "LINKINOUT": "0",
+                "LINKBITMAP": "2896662",
+                "LINKSTYLE": "25000000",
+                "LINKTIMESTAMP": "20250413093008610506",
+                "LINKRECT": "570,951,364,56",
+                "LINKRECTORI": "570,951,364,56",
+                "LINKPROTOCAL": "RATTA_RLE",
+                "LINKFILE": "L3N0b3JhZ2UvZW11bGF0ZWQvMC9Ob3RlL1dvcmsgZG9vZGxlcy5ub3Rl",
+                "LINKFILEID": "F20241002081613137377ajDR1GrzhwYP",
+                "PAGEID": "none",
+                "OBJPAGE": "0",
+                "FONTSIZE": "36.000000",
+                "FONTPATH": "L3N5c3RlbS9mb250cy9Ecm9pZFNhbnNGYWxsYmFja0Z1bGwudHRm",
+                "FULLTEXT": "V29yayBkb29kbGVzLm5vdGU=",
+                "SHOWTEXT": "V29yayBkb29kbGVzLm5vdGU="
+            }
+        ]
+    },
+    "PAGES": [
+        {
+            "PAGESTYLE": "style_white_a5x",
+            "PAGESTYLEMD5": "0",
+            "LAYERSEQ": "LAYER2,LAYER1,MAINLAYER,BGLAYER",
+            "MAINLAYER": "2641880",
+            "LAYER1": "2620100",
+            "LAYER2": "2605779",
+            "LAYER3": "0",
+            "BGLAYER": "1118",
+            "TOTALPATH": "2643607",
+            "THUMBNAILTYPE": "0",
+            "RECOGNSTATUS": "0",
+            "RECOGNTEXT": "0",
+            "RECOGNFILE": "0",
+            "PAGEID": "P20250413082638117448JD0ITPKR3hGp",
+            "RECOGNTYPE": "0",
+            "RECOGNFILESTATUS": "0",
+            "RECOGNLANGUAGE": "none",
+            "EXTERNALLINKINFO": "0",
+            "IDTABLE": "0",
+            "ORIENTATION": "1000",
+            "LAYERS": [
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "MAINLAYER",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "2621824",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "0",
+                        "name": "Main Layer",
+                        "isBackgroundLayer": "false",
+                        "isAllowAdd": "false",
+                        "isCurrentLayer": "true",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "true",
+                        "isAllowDown": "false"
+                    }
+                },
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "LAYER1",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "2607502",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "1",
+                        "name": "Layer 1",
+                        "isBackgroundLayer": "false",
+                        "isAllowAdd": "false",
+                        "isCurrentLayer": "false",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "true",
+                        "isAllowDown": "true"
+                    }
+                },
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "LAYER2",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "2592649",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "2",
+                        "name": "Layer 2",
+                        "isBackgroundLayer": "false",
+                        "isAllowAdd": "false",
+                        "isCurrentLayer": "false",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "false",
+                        "isAllowDown": "true"
+                    }
+                },
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "BGLAYER",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "331",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "-1",
+                        "name": "Background Layer",
+                        "isBackgroundLayer": "true",
+                        "isAllowAdd": "true",
+                        "isCurrentLayer": "false",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "false",
+                        "isAllowDown": "false"
+                    }
+                }
+            ]
+        },
+        {
+            "PAGESTYLE": "style_white_a5x",
+            "PAGESTYLEMD5": "0",
+            "LAYERSEQ": "LAYER1,MAINLAYER,BGLAYER",
+            "MAINLAYER": "3155568",
+            "LAYER1": "3116162",
+            "LAYER2": "0",
+            "LAYER3": "0",
+            "BGLAYER": "316537",
+            "TOTALPATH": "3157321",
+            "THUMBNAILTYPE": "0",
+            "RECOGNSTATUS": "0",
+            "RECOGNTEXT": "0",
+            "RECOGNFILE": "0",
+            "PAGEID": "P20250413082822005317TR6WaCINPUhb",
+            "RECOGNTYPE": "0",
+            "RECOGNFILESTATUS": "0",
+            "RECOGNLANGUAGE": "none",
+            "EXTERNALLINKINFO": "0",
+            "IDTABLE": "0",
+            "ORIENTATION": "1000",
+            "LAYERS": [
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "MAINLAYER",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "3117912",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "0",
+                        "name": "Main Layer",
+                        "isBackgroundLayer": "false",
+                        "isAllowAdd": "false",
+                        "isCurrentLayer": "true",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "true",
+                        "isAllowDown": "false"
+                    }
+                },
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "LAYER1",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "3104552",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "1",
+                        "name": "Layer 1",
+                        "isBackgroundLayer": "false",
+                        "isAllowAdd": "false",
+                        "isCurrentLayer": "false",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "false",
+                        "isAllowDown": "true"
+                    }
+                },
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "BGLAYER",
+                    "LAYERPATH": "0",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERBITMAP": "331",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "-1",
+                        "name": "Background Layer",
+                        "isBackgroundLayer": "true",
+                        "isAllowAdd": "true",
+                        "isCurrentLayer": "false",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "false",
+                        "isAllowDown": "false"
+                    }
+                }
+            ]
+        },
+        {
+            "PAGESTYLE": "style_white_a5x",
+            "PAGESTYLEMD5": "0",
+            "LAYERSEQ": "MAINLAYER,BGLAYER",
+            "MAINLAYER": "1112055",
+            "LAYER1": "0",
+            "LAYER2": "0",
+            "LAYER3": "0",
+            "BGLAYER": "1112190",
+            "TOTALPATH": "0",
+            "THUMBNAILTYPE": "0",
+            "RECOGNSTATUS": "0",
+            "RECOGNTEXT": "0",
+            "RECOGNFILE": "0",
+            "PAGEID": "P20250413084737565273NCCnfAp2fCuL",
+            "RECOGNTYPE": "0",
+            "RECOGNFILESTATUS": "0",
+            "RECOGNLANGUAGE": "none",
+            "EXTERNALLINKINFO": "0",
+            "IDTABLE": "0",
+            "ORIENTATION": "1000",
+            "LAYERS": [
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "MAINLAYER",
+                    "LAYERPATH": "0",
+                    "LAYERBITMAP": "1111727",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "0",
+                        "name": "Main Layer",
+                        "isBackgroundLayer": "false",
+                        "isAllowAdd": "false",
+                        "isCurrentLayer": "true",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "false",
+                        "isAllowDown": "false"
+                    }
+                },
+                {
+                    "LAYERTYPE": "NOTE",
+                    "LAYERPROTOCOL": "RATTA_RLE",
+                    "LAYERNAME": "BGLAYER",
+                    "LAYERPATH": "0",
+                    "LAYERVECTORGRAPH": "0",
+                    "LAYERBITMAP": "331",
+                    "LAYERRECOGN": "0",
+                    "LAYERINFO": {
+                        "layerId": "-1",
+                        "name": "Background Layer",
+                        "isBackgroundLayer": "true",
+                        "isAllowAdd": "true",
+                        "isCurrentLayer": "false",
+                        "isVisible": "true",
+                        "isDeleted": "false",
+                        "isAllowUp": "false",
+                        "isAllowDown": "false"
+                    }
+                }
+            ]
+        }
+    ]
+}
