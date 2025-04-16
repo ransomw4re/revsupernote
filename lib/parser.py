@@ -102,7 +102,8 @@ class SupernoteParser:
         return content
 
     def _parse_stream(self, stream) -> SupernoteMetadata:
-        self.bytestream = io.BytesIO(stream.read())
+        file_content = stream.read()
+        self.bytestream = io.BytesIO(file_content)
 
         # Get filetype
         self.bytestream.seek(0, os.SEEK_SET)
@@ -138,8 +139,8 @@ class SupernoteParser:
         keyword_addresses = self._get_block_addresses(footer_metadata, 'KEYWORD_')
         link_addresses = self._get_block_addresses(footer_metadata, 'LINKO_')
         
-        keywords = list(map(lambda addr: self._get_block_metadata(int(addr), stream), keyword_addresses))
-        links = list(map(lambda addr: self._get_block_metadata(int(addr), stream), link_addresses))
+        keywords = [self._get_block_metadata(int(addr), stream) for addr in keyword_addresses]
+        links = [self._get_block_metadata(int(addr), stream) for addr in link_addresses]
 
         footer_metadata[KEY_KEYWORDS] = keywords
         footer_metadata[KEY_LINKS] = links

@@ -10,6 +10,10 @@ COLORCODE_MARKER_BLACK = 0x66
 COLORCODE_MARKER_DARK_GRAY = 0x67
 COLORCODE_MARKER_GRAY = 0x68
 
+SPECIAL_LENGTH = 0x4000
+MAX_BYTE = 0xFF
+HIGH_BIT_MASK = 0x80
+LOW_BIT_MASK = 0x7F
 
 class Colormap:
     colormap = {
@@ -30,6 +34,9 @@ class Colormap:
 class Decoder:
     SPECIAL_LENGTH = 0x4000
 
+    def __init__(self):
+        self.colormap = Colormap()
+
     def decode(self, data, page_width: int, page_height: int, horizontal=False) -> bytes:
         content = data.get_content()
 
@@ -43,7 +50,7 @@ class Decoder:
         
         layer_as_tuples = list((content[i], content[i+1]) for i in range(0, len(content), 2))
         
-        decoded_bitmap = bytearray()
+        decoded_bitmap = []
         
         i = 0
         while i < len(layer_as_tuples):
@@ -65,19 +72,17 @@ class Decoder:
             
             i += 1
 
-            decoded_bitmap.extend(self._create_color_bytearray(color, length))
+            decoded_bitmap.append(self._create_color_bytearray(color, length))
 
         expected_length = page_height * page_width
 
-        if len(decoded_bitmap) != expected_length:
-            raise Exception(f"Decoded bitmap length {len(decoded_bitmap)} is different from expected lenght {expected_length}")
+        if len(bytearray().join(decoded_bitmap)) != expected_length:
+            raise Exception(f"Decoded bitmap length {len(bytearray().join(decoded_bitmap))} is different from expected lenght {expected_length}")
 
-        return decoded_bitmap, (page_width, page_height)
+        return bytearray().join(decoded_bitmap), (page_width, page_height)
 
     def _create_color_bytearray(self, color: int, length: int):
-        colormap = Colormap()
-
-        decoded_color = colormap.get_color(color)
+        decoded_color = self.colormap.get_color(color)
 
         if decoded_color == None:
             # antialiasing pixels
