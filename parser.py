@@ -1,18 +1,20 @@
 import re
 import os
 import io
-import json 
+import ast
+import json
 
 
-KEY_TYPE = '__type__'
-KEY_SIGNATURE = '__signature__'
-KEY_HEADER = '__header__'
-KEY_FOOTER = '__footer__'
-KEY_PAGES = '__pages__'
-KEY_LAYERS = '__layers__'
-KEY_LAYER_INFOS = '__layer_infos__'
-KEY_KEYWORDS = '__keywords__'
-KEY_LINKS = '__links__'
+
+KEY_TYPE = 'TYPE'
+KEY_SIGNATURE = 'SIGNATURE'
+KEY_HEADER = 'HEADER'
+KEY_FOOTER = 'FOOTER'
+KEY_PAGES = 'PAGES'
+KEY_LAYERS = 'LAYERS'
+KEY_LAYER_INFOS = 'LAYERINFO'
+KEY_KEYWORDS = 'LEYWORDS'
+KEY_LINKS = 'LINKS'
 
 
 class SupernoteMetadata:
@@ -82,7 +84,7 @@ class SupernoteParser():
     WORD_SIZE = 4
     FOOTER_POSITION = 4 # bottom up
     FIELD_PATTERN = r'<([^:<>]+):([^:<>]*)>'
-    INFO_PATTERN = r"\\\"([a-zA-Z]+)\\\"#\\?\"?([a-zA-Z\d\-\s]+)\\?\"?,"
+    INFO_PATTERN = r"\"(\w+)\"#\"?([\w\d\s\-]+)\"?"
     SIGNATURE_SIZE = 20
 
     def __init__(self):
@@ -153,6 +155,24 @@ class SupernoteParser():
         for page in pages:
             layer_addresses = self._get_block_addresses(page, 'LAYER', check_numeric=True)
             layers = list(map(lambda addr: self._get_block_metadata(int(addr), stream), layer_addresses))
+            layers_num = len(layers)
+            layers_info = re.findall(r'\{.*?\}', page.get('LAYERINFO'))
+            
+            page.pop('LAYERINFO')
+            
+            main_bg_info = list(map(lambda x: self._extract_parameter(self.INFO_PATTERN, x), layers_info[-2:]))
+
+            layers[0].update({KEY_LAYER_INFOS: main_bg_info[0]})
+            layers[-1].update({KEY_LAYER_INFOS: main_bg_info[1]})
+            
+            if layers_num > 2:
+                for layer in layers[1:-1]:
+                    for info in layers_info[:-2]:
+                        info_dict = self._extract_parameter(self.INFO_PATTERN, info)
+                        name = "".join(info_dict.get('name').split(" ")).upper()
+                        if layer.get('LAYERNAME') == name:
+                            layer.update({KEY_LAYER_INFOS: info_dict})
+
             page[KEY_LAYERS] = layers
         
         return pages
