@@ -79,7 +79,7 @@ class SupernoteMetadata:
 
 
 
-class SupernoteParser():
+class SupernoteParser:
     WORD_SIZE = 4
     FOOTER_POSITION = 4 # bottom up
     FIELD_PATTERN = r'<([^:<>]+):([^:<>]*)>'

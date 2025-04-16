@@ -1,6 +1,5 @@
-from converter import Converter
-
-import parser as sn
+from lib.converter import Converter
+import lib.parser as sn
 
 PAGE_HEIGHT = 1872
 PAGE_WIDTH = 1404
